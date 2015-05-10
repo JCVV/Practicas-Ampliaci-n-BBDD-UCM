@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE periodico SYSTEM "dtd.dtd">
+
+
+<periodico>
+    <usuario nick="Jose">
+        <nombreCompleto>Jose de Castro</nombreCompleto>
+        <url>JoseOne@gmail.com</url>
+    </usuario>
+    <usuario nick="Ramon">
+        <nombreCompleto>Ramon Jose de todos los santos</nombreCompleto>
+        <url>Ramon@gmail.com</url>
+    </usuario>
+    <usuario nick="Crisalda">
+        <nombreCompleto>Crisalda de los Mares Pacificos</nombreCompleto>
+        <url>Cris@gmail.com</url>
+    </usuario>
+    <usuario nick="DonRamon">
+        <nombreCompleto>Don Rámon</nombreCompleto>
+        <url>DonRamon@gmail.com</url>
+    </usuario>
+    <noticia id="c01">
+        <titular>Madrid campeón</titular>
+        <entradilla>Gran partido de Bale, el jugador más caro del mundo fue decisivo en la recta final del encuentro con un golazo entre las piernas del portero del Barsa</entradilla>
+        <url>www.google.com</url>
+        <fechaPublicacion>
+            <dia>6</dia>
+            <mes>3</mes>
+            <anyo>1995</anyo>
+            <hora>19</hora>
+            <minuto>45</minuto>
+            <segundo>23</segundo>
+        </fechaPublicacion>
+        <etiqueta>Mundo</etiqueta>
+        <etiqueta>Deportes</etiqueta>
+        <etiqueta>Social</etiqueta>
+        <comentario nick="Jose">
+            <texto>ole campeones ole! El chupito se queda en Madrid!</texto>
+            <fechaPublicacion>
+                <dia>7</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+        <comentario nick="Crisalda">
+            <texto>es que ramos es taan guapo</texto>
+            <fechaPublicacion>
+                <dia>1</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+    </noticia>
+    <noticia id="c02">
+        <titular>Madrid arrolla al Bayern</titular>
+        <entradilla>Gran partido de Neuer, aunque encajó un gol de Sergio Ramos.</entradilla>
+        <url>www.roadToLisbon.com</url>
+        <fechaPublicacion>
+            <dia>8</dia>
+            <mes>3</mes>
+            <anyo>1995</anyo>
+            <hora>19</hora>
+            <minuto>45</minuto>
+            <segundo>23</segundo>
+        </fechaPublicacion>
+        <etiqueta>Deportes</etiqueta>
+        <etiqueta>Cotilleos</etiqueta>
+        <comentario nick="Jose">
+            <texto>me gusta mucho</texto>
+            <fechaPublicacion>
+                <dia>30</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+        <comentario nick="Ramon">
+            <texto>leches patxi que la décima es posible!</texto>
+            <fechaPublicacion>
+                <dia>12</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+    </noticia>
+    <noticia id="c03">
+        <titular>El Madrid machaca al atleti</titular>
+        <entradilla>Gran partido de anccelotti, decisivos en los cambios tácticos</entradilla>
+        <url>www.ladecimaestaqui.com</url>
+        <fechaPublicacion>
+            <dia>14</dia>
+            <mes>1</mes>
+            <anyo>2002</anyo>
+            <hora>12</hora>
+            <minuto>45</minuto>
+            <segundo>23</segundo>
+        </fechaPublicacion>
+        <etiqueta>Deportes</etiqueta>
+        <etiqueta>Ligoteos</etiqueta>
+        <comentario nick="DonRamon">
+            <texto>el cesped estaba muy alto</texto>
+            <fechaPublicacion>
+                <dia>6</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+        <comentario nick="Crisalda">
+            <texto>a bailar el mambo! Fiesta!</texto>
+            <fechaPublicacion>
+                <dia>19</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+    </noticia>
+    <noticia id="c04">
+        <titular>Patxi Amavisca gana el torneo de pelota vasca</titular>
+        <entradilla>Durante el torneo nacional de pelota vasca en Zugati, Patxi Amavisca destacó sobre sus competidores mancos en un reñido campeonatO</entradilla>
+        <url>ww.soyVasco.com</url>
+        <fechaPublicacion>
+            <dia>9</dia>
+            <mes>8</mes>
+            <anyo>2010</anyo>
+            <hora>16</hora>
+            <minuto>45</minuto>
+            <segundo>23</segundo>
+        </fechaPublicacion>
+        <etiqueta>Deportes</etiqueta>
+        <etiqueta>Soy vasco</etiqueta>
+        <comentario nick="DonRamon">
+            <texto>Ole Patxi y su coraje!</texto>
+            <fechaPublicacion>
+                <dia>1</dia>
+                <mes>3</mes>
+                <anyo>1995</anyo>
+                <hora>19</hora>
+                <minuto>45</minuto>
+                <segundo>23</segundo>
+            </fechaPublicacion>
+        </comentario>
+    </noticia>
+</periodico>

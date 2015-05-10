@@ -1,0 +1,5 @@
+package p3.model;
+
+public enum TipoPartido {
+	PRIMERA_FASE, OCTAVOS_FINAL, CUARTOS_FINAL, SEMIFINAL, TERCER_PUESTO, FINAL;
+}

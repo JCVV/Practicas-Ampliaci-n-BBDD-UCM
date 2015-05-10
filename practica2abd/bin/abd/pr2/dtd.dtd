@@ -1,0 +1,22 @@
+<!ELEMENT periodico (usuario*, noticia+)> 
+<!ELEMENT usuario (nombreCompleto, url)>
+<!ELEMENT nombreCompleto (#PCDATA)> 
+<!ELEMENT url (#PCDATA)> 
+
+<!ELEMENT fechaPublicacion (dia,mes,anyo,hora,minuto,segundo)> 
+<!ELEMENT noticia (titular,entradilla,url,fechaPublicacion,etiqueta+,comentario*)> 
+<!ELEMENT titular (#PCDATA)> 
+<!ELEMENT entradilla (#PCDATA)> 
+
+<!ELEMENT dia (#PCDATA)> 
+<!ELEMENT mes (#PCDATA)> 
+<!ELEMENT anyo (#PCDATA)> 
+<!ELEMENT hora (#PCDATA)> 
+<!ELEMENT minuto (#PCDATA)> 
+<!ELEMENT segundo (#PCDATA)> 
+<!ELEMENT etiqueta (#PCDATA)> 
+<!ELEMENT comentario (texto,fechaPublicacion)>
+<!ELEMENT texto (#PCDATA)> 
+<!ATTLIST usuario nick ID #REQUIRED>
+<!ATTLIST noticia id ID #REQUIRED> 
+<!ATTLIST comentario nick IDREF #REQUIRED>
